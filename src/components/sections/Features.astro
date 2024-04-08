@@ -1,0 +1,49 @@
+---
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Title from "../shared/Title.astro";
+
+---
+
+<section id="features">
+    <Container className="flex flex-col midmd:flex-row gap-10 lg:gap-12">
+        
+        <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
+            <Title>
+                 <span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600">Empowering </span> Parents <span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600"> Enriching </span>Childhood
+            </Title>
+            <Paragraph className="mt-8">
+                With Singmellow.ai, parents gain personalized insights into their child's learning journey while engaging in interactive activities tailored to foster <bold>curiosity and creativity. It's education redefined, together.
+            </Paragraph>
+            <Paragraph className="mt-2">
+                Join Singmellow.ai today and unlock a world of endless possibilities for your child's education. child learns what he/she  lives
+            </Paragraph>
+            <ul class="mt-8 space-y-4 text-heading-3 font-medium">
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center">&checkmark;</span> Unlimited Learning
+                </li>
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center">&checkmark;</span> Unlimited Creativity.
+                </li>
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center">&checkmark;</span> Unlimited Engagement & Interactivity
+                </li>
+                <li>
+                    <span class="font-bold bg-box-bg rounded-full w-8 h-8 mr-3 text-primary inline-flex justify-center items-center">&checkmark;</span> LifeTime Learning
+                </li>
+            </ul>
+        </div>
+
+        <div class="max-w-md mx-auto midmd:max-w-none lg:mx-0  lg:pr-10 xl:pr-2 flex-1 flex w-11/12 midmd:w-5/12 lg:w-1/2 midmd:h-auto">
+            <div class="w-full h-80 sm:h-96 midmd:h-full relative">
+                <div class="absolute rotate-45 -left-5 md:-left-10 lg:-left-20 xl:-left-24 p-1 top-1/2 w-16 h-16 bg-gradient-to-br from-primary to-orange-400 blur-3xl opacity-50"></div>
+                <div class="absolute  p-1 -top-4 md:-top-10 right-0 w-20 h-20 bg-gradient-to-br from-primary to-orange-400 rounded-full blur-3xl opacity-60"></div>
+                
+                <span class="absolute w-full aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-tr from-primary to-green-400 opacity-40 blur-2xl left-0 bottom-0"></span>
+                <img src={"/images/dev-with-c.webp"} alt="banner image" 
+                width="1240" height="1385"
+                class=" w-auto left-1/2 -translate-x-1/2 absolute bottom-0 max-h-full" />
+            </div>
+        </div>
+    </Container>
+</section>
