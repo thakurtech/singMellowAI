@@ -1,9 +1,7 @@
-<h1>AgenceX Landing page</h1>
+<h1>SingMellow</h1>
 
-A simple landing page for a digital agency
+SingMellow proto-1 landing page
 
-![AgenceX light Theme](./screens/demoLight.webp)
-![AgenceX Dark Theme](./screens/demoDark.webp)
 
 
 ## Tools
